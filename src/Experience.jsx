@@ -2,16 +2,10 @@ import {
 	Center,
 	ContactShadows,
 	Environment,
-	Float,
 	Html,
-	OrbitControls,
-	PresentationControls,
 	Text,
 } from "@react-three/drei";
 import Iphone from "./Iphone";
-import { useFrame } from "@react-three/fiber";
-import Model from "./IphoneNew";
-import IphoneNew from "./IphoneNew";
 
 export default function Experience() {
 	return (
