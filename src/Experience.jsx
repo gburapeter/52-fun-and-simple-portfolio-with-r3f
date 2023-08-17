@@ -14,7 +14,13 @@ export default function Experience() {
 
 			<Environment preset="city" />
 
-			<Center position={[0, 0.2, 0]} scale={0.9}>
+			<Center
+				position={[0, 0.2, 0]}
+				scale={0.9}
+				onCentered={({ container, height }) =>
+					container.scale.setScalar(viewport.height / height)
+				}
+			>
 				<Iphone
 
 				// position-x={-0.5}
