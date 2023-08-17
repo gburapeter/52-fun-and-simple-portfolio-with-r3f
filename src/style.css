@@ -22,10 +22,10 @@ canvas {
 
 .htmlScreen iframe {
 	width: 745px;
-	height: 1590px;
+	height: 1550px;
 	border: black;
 	border-radius: 100px;
-	background: rgb(34, 32, 32);
+	background: rgb(18, 18, 18);
 }
 
 p {
