@@ -26,6 +26,7 @@ canvas {
 	border: black;
 	border-radius: 110px;
 	background: rgb(18, 18, 18);
+	overflow: hidden;
 }
 
 p {
