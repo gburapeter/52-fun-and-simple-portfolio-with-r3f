@@ -6,8 +6,10 @@ import {
 	Text,
 } from "@react-three/drei";
 import Iphone from "./Iphone";
+import { useThree } from "@react-three/fiber";
 
 export default function Experience() {
+	const viewport = useThree((state) => state.viewport);
 	return (
 		<>
 			<color args={["navajoWhite"]} attach="background" />
@@ -16,9 +18,9 @@ export default function Experience() {
 
 			<Center
 				position={[0, 0.2, 0]}
-				scale={0.9}
+				// scale={0.2}
 				onCentered={({ container, height }) =>
-					container.scale.setScalar(viewport.height / height)
+					container.scale.setScalar(viewport.height / height / 1.4)
 				}
 			>
 				<Iphone
