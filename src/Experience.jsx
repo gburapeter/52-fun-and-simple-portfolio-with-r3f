@@ -14,7 +14,7 @@ export default function Experience() {
 
 			<Environment preset="city" />
 
-			<Center>
+			<Center position={[0, 0.2, 0]} scale={0.9}>
 				<Iphone
 
 				// position-x={-0.5}

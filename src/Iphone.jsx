@@ -22,7 +22,7 @@ function Iphone(props) {
 				transform
 				wrapperClass="htmlScreen"
 				distanceFactor={1}
-				position={[0.48, 1.6, -1]}
+				position={[0.51, 1.65, -1]}
 				// rotation-x={-0.256}
 			>
 				<iframe src="https://www.lipsum.com/" />
